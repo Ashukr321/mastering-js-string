@@ -6,8 +6,10 @@
 
 const greeting = '   Hello world!   ';
 
-// Trim both ends
-console.log(greeting.trim()); // "Hello world!"
+// trim methods : this simple remove the whiteSpace:  from both end start and end 
+// trimStart
+// trimEnd
 
-// Original string is unchanged
-console.log(greeting); // "   Hello world!   "
+console.log(greeting.trim());
+console.log(greeting.trimStart());
+console.log(greeting.trimEnd());

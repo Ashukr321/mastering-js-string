@@ -3,8 +3,15 @@
  * @description: Returns the calling string value converted to lower case.
  */
 
-const str = "HELLO WORLD";
-console.log(str.toLowerCase()); // "hello world"
+const str = "HELLO WORLDI";
+console.log(str.toLowerCase());
+// this ignore local language specific rule 
 
-const mixed = "JavaScript IS Awesome";
-console.log(mixed.toLowerCase()); // "javascript is awesome"
+
+// toLowerCase(); methods does't mutate the original string it return the new string 
+
+// toLocalLowerCase()
+console.log(str.toLocaleLowerCase("tr"));
+// it convert into lowercase based on local language
+// 
+
