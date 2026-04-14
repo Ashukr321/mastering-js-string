@@ -5,12 +5,8 @@
  */
 
 const str = "JavaScript is awesome!";
+// startWith(): methods that simply check weather the string is begin with specific character or not and it return true and false 
 
-// Basic check
-console.log(str.startsWith("JavaScript")); // true
+console.log(str.startsWith('j'));
 
-// Case-sensitive
-console.log(str.startsWith("javascript")); // false
-
-// Check with position (search starts from this position)
-console.log(str.startsWith("is", 11)); // true
+// it is case in-sensitive
