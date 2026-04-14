@@ -14,3 +14,6 @@ console.log(sentence.includes("Fox")); // false
 
 // Search with start position
 console.log(sentence.includes("The", 10)); // false (search starts at index 10)
+
+
+// difference between the search and includes 

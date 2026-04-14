@@ -12,3 +12,6 @@ let template = `backticks`; // Template literals
 
 console.log(typeof single); // "string"
 console.log(single.length); // length property
+
+let name = new String("Ashutosh"); // store in the heap memory 
+console.log(typeof name); // return object 

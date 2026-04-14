@@ -15,3 +15,6 @@ console.log(str.slice(4, 19)); // "quick brown fox"
 // Negative indices
 console.log(str.slice(-4)); // "dog."
 console.log(str.slice(-9, -5)); // "lazy"
+
+
+// this methods commonly use  in the both string and array both 
