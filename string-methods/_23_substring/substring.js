@@ -14,3 +14,6 @@ console.log(str.substring(5,1));
 // -ve index are treated as 0 index in this methods 
 
 console.log(str.substring(-1,4));
+
+// if we passes the -ve index in the substring then it will treated as 0 index 
+// if the start index is greater > end index in this case first swap the index then return the result 
