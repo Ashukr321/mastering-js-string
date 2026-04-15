@@ -13,3 +13,7 @@ const greeting = '   Hello world!   ';
 console.log(greeting.trim());
 console.log(greeting.trimStart());
 console.log(greeting.trimEnd());
+
+// trim method is use for removing the extra spaces from the string : 
+// trimStart:  remove the extra spaces from start of the string :
+// trimEnd :  remove the extra space from end of the string 
