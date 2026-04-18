@@ -17,7 +17,18 @@ let userName = "Ashutosh"; // 8
 
 
 
+
 console.log(userName.at(2));
 
 console.log(userName.toUpperCase());
 console.log(userName.toLowerCase());
+
+
+// ----------- includes methods ----------- 
+let user= "Amit";
+console.log(user.includes('i'));
+// includes method return true and false
+
+// includes method is caseInsensitive methods 
+//  widely use in the react real application 
+
