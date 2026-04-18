@@ -30,5 +30,17 @@ console.log(user.includes('i'));
 // includes method return true and false
 
 // includes method is caseInsensitive methods 
-//  widely use in the react real application 
+//  widely use in the react real application
+
+// --------------- trim()----- 
+
+
+/*
+
+ remove the extra spaces from start and end : 
+ trimStart(); // remove extra spaces from starting of the string 
+ trimEnd(); this methods remove spaces from end of the string 
+ // trim(); remove the extra spaces from both side : starting and end side
+ 
+*/
 
