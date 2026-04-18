@@ -33,8 +33,12 @@ console.log(user.includes('i'));
 //  widely use in the react real application
 
 // --------------- trim()----- 
+let name = "   Neeraj   ";
+console.log(name.trim());
+console.log(name);
 
-
+console.log(name.trimStart());
+console.log(name.trimEnd());
 /*
 
  remove the extra spaces from start and end : 

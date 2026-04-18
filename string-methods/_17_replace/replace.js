@@ -14,8 +14,11 @@ console.log(p.replace('dog', 'monkey'));
 console.log(p.replace(/dog/, 'monkey'));
 
 // Regex with /g flag (replaces all occurrences)
-console.log(p.replace(/dog/g, 'monkey'));
+console.log(p.replace(/dog/g, 'monkey'));// g represent  
 
 // Replacement with a function
 const capitalized = p.replace(/\w+/g, (match) => match.toUpperCase());
 console.log(capitalized);
+
+// use in regex , 
+
